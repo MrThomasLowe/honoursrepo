@@ -6,3 +6,5 @@ import pandas as pd
 
 data = pd.read_csv("Stocks/prices.csv")
 print(data)
+
+#test
