@@ -1,4 +1,5 @@
 import tkinter as tk
+print("test")
 
 win = tk.Tk()
 
