@@ -17,13 +17,13 @@ class App(object):
     def create_text(self):
 
         enterStock1 = Entry(win,width=10)
-        enterStock1.grid(column=1,row=0)
+        enterStock1.place(x=15,y=15)
         enterStock2 = Entry(win,width=10)
-        enterStock2.grid(column=2,row=0)
+        enterStock2.place(x=15,y=30)
         enterStock3 = Entry(win,width=10)
-        enterStock3.grid(column=1,row=1)
+        enterStock3.place(x=30,y=15)
         enterStock4 = Entry(win,width=10)
-        enterStock4.grid(column=2,row=1)
+        enterStock4.place(x=30,y=30)
 
         enterStock1.focus()
     
