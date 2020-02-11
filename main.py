@@ -16,5 +16,7 @@ enterStock3.grid(column=1,row=1)
 enterStock4 = Entry(win,width=10)
 enterStock4.grid(column=1,row=2)
 
+enterStock1.focus()
+
 #keeps the program running until the window is closed
 win.mainloop()
