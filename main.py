@@ -1,5 +1,8 @@
 from tkinter import *
 import tkinter as tk
+
+#https://likegeeks.com/python-gui-examples-tkinter-tutorial/#Create-your-first-GUI-application
+
 win = Tk()
 
 win.title("Stock Portfolio Optimisation Tool")
