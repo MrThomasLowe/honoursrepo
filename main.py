@@ -1,6 +1,15 @@
 from tkinter import *
 import tkinter as tk
 from tkinter import ttk
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import warnings
+import pyfolio as pf
+import empyrical as ep
+from yahoofinancials import YahooFinancials
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 
 #https://likegeeks.com/python-gui-examples-tkinter-tutorial/#Create-your-first-GUI-application
 
